@@ -1,11 +1,11 @@
 import React from 'react';
-import Simulation from './simulation';
+import Stars from './stars';
 
 
 const Root = () => {
     return (
         <div>
-            <Simulation />
+            <Stars rating={3} />
         </div>
     );
 }
